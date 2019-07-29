@@ -1,0 +1,9 @@
+
+div.HeaderContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  width: auto;
+  height: 60px;
+  padding-left: 60px;
+}

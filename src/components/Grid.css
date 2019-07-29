@@ -1,0 +1,92 @@
+
+.App-Container {
+  display: grid;
+  grid-template-columns: 60px auto auto 60px;
+  grid-template-rows: 60px auto auto auto auto 60px;
+  grid-template-areas:
+    "nav header header sidebar"
+    "nav mainleft mainright sidebar"
+    "nav SkillsLeft SkillsRight sidebar"
+    "nav ProjectsLeft ProjectsRight sidebar"
+    "nav ContactLeft ContactRight sidebar"
+    "nav footer footer sidebar";
+  height: "auto";
+  width: "auto";
+}
+
+
+.Hello {
+  display: grid;
+  grid-column-start: mainleft;
+  grid-column-end: mainright;
+  grid-row: 2;
+  height: calc(100vh - 120px);
+  background-color: #f8f8f8;
+
+}
+
+.Skills {
+  display: grid;
+  grid-column-start: SkillsLeft;
+  grid-column-end: SkillsRight;
+  grid-row: 3;
+  height: calc(100vh - 120px);
+  background-color: #f8f8f8;
+  /*#f8f8f8;*/
+}
+
+.Projects {
+  display: grid;
+  grid-column-start: ProjectsLeft;
+  grid-column-end: ProjectsRight;
+  grid-row: 4;
+  height: calc(100vh - 120px);
+  background-color: #f8f8f8;
+}
+
+.Contact {
+  display: grid;
+  grid-column-start: ContactLeft;
+  grid-column-end: ContactRight;
+  grid-row: 5;
+  height: calc(100vh - 120px);
+  background-color: #f8f8f8;
+}
+
+div.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background-color: white;
+}
+
+div.leftNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 60px;
+  background-color: white;
+
+}
+
+div.rightNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 60px;
+  background-color: white;
+
+}
+
+div.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background-color: white;
+}

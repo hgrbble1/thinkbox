@@ -1,0 +1,11 @@
+.TechLineSVG {
+  fill:#fff;
+  stroke:#fff;
+  stroke-miterlimit:10;
+  stroke-width:10px;
+}
+
+.TechLinePosition {
+  position: absolute;
+
+}

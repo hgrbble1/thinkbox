@@ -1,0 +1,133 @@
+
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ContactSVG {
+  padding-left: 150px;
+  width: auto;
+  height: auto;
+  align-self: flex-start;
+}
+
+.EmailContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.EmailForm {
+  width: 700px;
+  height: 540px;
+  background-color: inherit;
+  align-self: center;
+  border-bottom: 0px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 0px;
+  align-self: flex-end;
+  margin-right: 150px;
+}
+
+.Form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.Name {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  color: black;
+  background-color: inherit;
+  border-bottom: 2px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 2px solid black;
+}
+
+.LastName {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  color: #f8f8f8;
+  border-style: none;
+  background-color: black;
+}
+
+.Email {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  color: black;
+  background-color: inherit;
+  border-bottom: 2px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 2px solid black;
+}
+
+.Message {
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  color: black;
+  background-color: inherit;
+  border-bottom: 2px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 2px solid black;
+}
+
+.Button {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  color: #f8f8f8;
+  border-style: none;
+  background-color: black;
+
+}
+
+.animation_elements {
+  opacity: 0;
+
+}
+
+.animation_elements.slide-left {
+  opacity: 0;
+  transition: all 500ms linear;
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation_elements.slide-left.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.ThirdRow {
+  display: flex;
+
+}
